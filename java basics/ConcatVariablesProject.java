@@ -1,4 +1,4 @@
-public class ConcatProject {
+public class ConcatVariablesProject {
     /*
     This program generates a mad libbed story.
     Author: Laura
