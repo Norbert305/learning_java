@@ -30,11 +30,13 @@ public class Newsfeed {
     //create new instances that can call the public methods above that are returning the arrays.
     Newsfeed sampleFeed = new Newsfeed();
     String[] topics = sampleFeed.getTopics();
-      System.out.println(Arrays.toString(topics));
-    //Same thing, new instance related to the public method above returning the array.
+      System.out.println(Arrays.toString(topics));//output: [Opinion, Tech, Science, Health]
+    
+    
+      //Same thing, new instance related to the public method above returning the array.
     Newsfeed sampleNumbers = new Newsfeed();
     int[] myNumbers = sampleNumbers.getNumbers();
-    System.out.println(Arrays.toString(myNumbers));
+    System.out.println(Arrays.toString(myNumbers));//output: [1, 2, 3, 4, 5]
 
     
     
@@ -43,10 +45,10 @@ public class Newsfeed {
 
     //No new instances here!!!! No need!!! Can just call your array!!!
     int[] luckyNumbers = {23 ,24 ,35 , 07, 30};
-    System.out.println(Arrays.toString(luckyNumbers));
+    System.out.println(Arrays.toString(luckyNumbers));//output: [23, 24, 35, 7, 30]
 
        String[] luckyPlaces = {"Ocean" ,"Park" ,"Basketball Court" , "Video Game Arcade"};
-System.out.println(Arrays.toString(luckyPlaces));
+System.out.println(Arrays.toString(luckyPlaces));//output: [Ocean, Park, Basketball Court, Video Game Arcade]
 
 
 
