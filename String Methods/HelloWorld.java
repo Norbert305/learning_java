@@ -17,6 +17,11 @@ public class HelloWorld {
     String x = "Hello, World!";
     System.out.println(str.equals(x));//true -> boolean same as ==
     System.out.println(str.charAt(1));//e -> input index to get character
+
+
+
+
+    
     
   }
   
